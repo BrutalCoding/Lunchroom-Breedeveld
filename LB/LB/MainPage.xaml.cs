@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace LB
 {
-    public partial class MainPage : ContentPage
+	public partial class MainPage : ContentPage
     {
         public MainPage()
         {
