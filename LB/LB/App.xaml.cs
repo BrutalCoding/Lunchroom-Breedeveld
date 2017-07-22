@@ -13,7 +13,7 @@ namespace LB
         {
             InitializeComponent();
 
-            MainPage = new LB.MainScreen();
+            MainPage = new LB.Pages.Home();
         }
 
         protected override void OnStart()

@@ -2,10 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LB.Pages.Home">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" Margin="50" Text="Lunchroom Breedeveld" />
-            <Image Source="app_logo_big.png" VerticalOptions="StartAndExpand" HeightRequest="400"/>
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="ImageSource.FromFile" />
+        <Image Source="startscherm.png" />
+        <Label Text="'waterfront.jpg' is referenced in Xaml" />
+    </StackLayout>
 </ContentPage>
